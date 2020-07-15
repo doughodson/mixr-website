@@ -1,5 +1,5 @@
-MIXR Website (mixr.dev)
-=======================
+Mixed Reality Simulation Platform (MIXR) website
+================================================
 
 New GitHub hosted website.
 
