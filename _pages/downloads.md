@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Downloads
+permalink: /downloads.html
 ---
 **Version 20.0x (Developmental)**
 
