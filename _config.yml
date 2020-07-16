@@ -22,9 +22,9 @@ title: "MIXR Platform"
 email: doug@sidechannel.net
 description: "Mixed Reality Simulation Platform (MIXR)"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://mixr.dev"
+twitter_username: "mixr_platform"
+github_username:  doughodson
 
 # Build settings
 theme: minima
