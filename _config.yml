@@ -25,7 +25,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mixr.dev"
 twitter_username: "mixr_platform"
 github_username:  doughodson
-include: ['_pages', '_assets']
 
 # Build settings
 theme: minima
