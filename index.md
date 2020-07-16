@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Main Page
+title: Front Page
 ---
 Enabling the Construction of Robust, Scalable, Virtual and Constructive, Stand-alone and Distributed Mixed Reality Applications
 ===============================================================================================================================
