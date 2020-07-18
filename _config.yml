@@ -37,6 +37,7 @@ header_pages:
   - pages/downloads.md
   - pages/license.md
   - pages/instruments.md
+  - pages/interop.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.
