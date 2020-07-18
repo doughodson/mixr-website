@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Interop
-permalink: /interop.html
+title: Interoperability
+permalink: /interoperability.html
 ---
-Interoperability is a property referring to the ability of diverse systems and organizations to work together (inter-operate). With respect to software, the term interoperability is used to describe the capability of different programs to exchange data via a common set of exchange formats, to read and write the same file formats, and to use the same protocols.
+Interoperability is a property referring to the ability of diverse systems and organizations to work together "inter-operate". With respect to software, the term interoperability is used to describe the capability of different programs to exchange data via a common set of exchange formats, to read and write the same file formats, and to use the same protocols.
 
 Currently, MIXR supports the DIS interoperability standard, but in the future, we hope to support more.
 
