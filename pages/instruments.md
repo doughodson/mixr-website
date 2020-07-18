@@ -8,8 +8,7 @@ MIXR contains an extensive set of graphics objects and classes to rapidly create
 Because the simulation and instrument libraries are implemented as independent hierarchical class libraries, both capabilities can be used and intermixed with other solutions. For example, the graphic and instrument libraries can be used with other simulation solutions, and, MIXR simulation capabilities can be used with other display interfaces. But, the biggest bang is delivered when both simulation and graphics libraries are used together. MIXR goes well beyond providing OpenGL or DirectX class libraries for drawing; it provides the tools to design complex simulations.
 
 
-Example Primary Flight Displays (PFD)
-=====================================
+## Example Primary Flight Displays (PFD)
 
 ![]({{ site.baseurl }}/assets/pages/instruments/fd1.png "Primary Flight Display for a Jet")
 
@@ -17,8 +16,7 @@ Example Primary Flight Displays (PFD)
 
 ![]({{ site.baseurl }}/assets/pages/instruments/fd3.png "3D EADI - Electronic Altitude Direction Indicator")
 
-Example Instruments & Gauges
-============================
+## Example Instruments & Gauges
 
 ![]({{ site.baseurl }}/assets/pages/instruments/ftit.png "Fan Turbine Inlet Temperature")
 

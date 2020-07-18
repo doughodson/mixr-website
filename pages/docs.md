@@ -9,8 +9,7 @@ permalink: /docs.html
 
 [BasicGL Classes]({{ site.baseurl }}/assets/pages/docs/basicGL_classes.pdf) : This set of slides document many of the classes contained within the BasicGL package of the OpenEaagles framework.
 
-Publications and Articles
-=========================
+## Publications and Articles
 [I/ITSEC Tutorial]({{ site.baseurl }}/assets/pages/docs/iitsec_2008_tutorial.pdf) : Douglas D. Hodson and David P. Gehl. "Design & Implementation of Virtual Simulations" Interservice/Industry Training, Simulation, and Education Conference (I/ITSEC), Tutorial Session, 2008.
 
 [I/ITSEC 2006 Paper]({{ site.baseurl }}/assets/pages/docs/iitsec_2006_paper.pdf) : Douglas D. Hodson, David P. Gehl, and Rusty O. Baldwin. "Building Distributed Simulations Utilizing the EAAGLES Framework." Interservice/Industry Training, Simulation, and Education Conference (I/ITSEC), 2006.
@@ -21,8 +20,7 @@ Publications and Articles
 
 [AIAA Newsletter Jan 2008]({{ site.baseurl }}/assets/pages/docs/aiaa_modsim_newsletter_01_2006.pdf) : The American Institute of Aeronautics and Astronautics (AIAA) Modeling and Simulation January 2008 Newsletter. A Publication of the AIAA Modeling and Simulation Technical Committee. "OpenEaagles, An Open Source Simulation Framework"
 
-Related Works
-=============
+## Related Works
 [MOVES Open House 2007 Presentation]({{ site.baseurl }}/assets/pages/docs/moves_openhouse_opensource_2007.pdf)
  : Perry McDowell. "Using Open Source Software for Military M&S." MOVES Open House, July 19, 2007.
 
