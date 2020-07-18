@@ -39,6 +39,11 @@ header_pages:
   - pages/instruments.md
   - pages/interoperability.md
 
+titles_from_headings:
+  enabled: true
+  strip_title: true
+  collections: true
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
