@@ -20,7 +20,7 @@ Example Primary Flight Displays (PFD)
 Example Instruments & Gauges
 ============================
 
-![]({{ site.baseurl }}/assets/pages/instruments/ftit.png "Fan Turbine Inlet Temperature Instrument")
+![]({{ site.baseurl }}/assets/pages/instruments/ftit.png "Fan Turbine Inlet Temperature")
 
 ![]({{ site.baseurl }}/assets/pages/instruments/mach.png "Mach/Airspeed Indicator")
 
