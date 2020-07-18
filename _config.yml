@@ -38,6 +38,7 @@ header_pages:
   - pages/license.md
   - pages/instruments.md
   - pages/interoperability.md
+  - pages/gui.md
 
 titles_from_headings:
   enabled: true
