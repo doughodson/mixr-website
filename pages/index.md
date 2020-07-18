@@ -1,6 +1,5 @@
 ---
 layout: home
-title: Front Page
 permalink: /index.html
 ---
 Enabling the Construction of Robust, Scalable, Virtual and Constructive, Stand-alone and Distributed Mixed Reality Applications
