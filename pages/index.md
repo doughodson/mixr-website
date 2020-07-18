@@ -1,9 +1,9 @@
 ---
 layout: home
+list_title: "Recent Posts"
 permalink: /index.html
 ---
-Enabling the Construction of Robust, Scalable, Virtual and Constructive, Stand-alone and Distributed Mixed Reality Applications
-===============================================================================================================================
+## Enabling the Construction of Robust, Scalable, Virtual and Constructive, Stand-alone and Distributed Mixed Reality Applications ##
 
 The Mixed Reality Simulation Platform (MIXR), or simply, the Mixer Platform, is a multi-platform simulation platform designed to help simulation engineers and software developers rapidly prototype and build robust, scalable, virtual and constructive, and stand-alone and distributed simulation applications. It has been used extensively to build applications that demand deterministic real-time performance. This includes applications used to support human factor studies, operator training, or the development of complete distributed virtual simulation systems. The Mixer Platform has also been used to build stand-alone and distributed constructive applications oriented at system performance analysis.
 
