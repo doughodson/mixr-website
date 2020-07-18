@@ -1,6 +1,6 @@
 ---
 layout: home
-list_title: "Recent Posts"
+list_title: "Project News"
 permalink: /index.html
 ---
 ## Mixed Reality Simulation Platform (MIXR)
