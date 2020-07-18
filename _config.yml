@@ -32,10 +32,11 @@ plugins:
   - jekyll-feed
 
 header_pages:
-  - pages/downloads.md
-  - pages/docs.md
-  - pages/license.md
   - pages/overview.md
+  - pages/docs.md
+  - pages/downloads.md
+  - pages/license.md
+  - pages/instruments.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.
