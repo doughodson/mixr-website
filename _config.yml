@@ -40,6 +40,8 @@ header_pages:
   - pages/interoperability.md
   - pages/gui.md
   - pages/projects.md
+  - pages/visual-dbs.md
+  - pages/contact-us.md
 
 titles_from_headings:
   enabled: true

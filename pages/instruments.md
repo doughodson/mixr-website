@@ -22,27 +22,27 @@ Because the simulation and instrument libraries are implemented as independent h
 
 ![]({{ site.baseurl }}/assets/pages/instruments/mach.png "Mach/Airspeed Indicator")
 
-![]({{ site.baseurl }}/assets/pages/instruments/engine_nozzle.png "Engine Nozzle Position")
+![]({{ site.baseurl }}/assets/pages/instruments/engine-nozzle.png "Engine Nozzle Position")
 
 ![]({{ site.baseurl }}/assets/pages/instruments/rpm.png "RPM Gauge")
 
-![]({{ site.baseurl }}/assets/pages/instruments/oil_pressure.png "Oil Pressure Gauge")
+![]({{ site.baseurl }}/assets/pages/instruments/oil-pressure.png "Oil Pressure Gauge")
 
-![]({{ site.baseurl }}/assets/pages/instruments/analog_g_meter.png "Analog G Meter")
+![]({{ site.baseurl }}/assets/pages/instruments/analog-g-meter.png "Analog G Meter")
 
 ![]({{ site.baseurl }}/assets/pages/instruments/vvi.png "VVI - Vertical Velocity Indicator")
 
 ![]({{ site.baseurl }}/assets/pages/instruments/hsi.png "HSI - Horizontal Situation Indicator")
 
-![]({{ site.baseurl }}/assets/pages/instruments/alt_readout.png "Altitude Readout")
+![]({{ site.baseurl }}/assets/pages/instruments/alt-readout.png "Altitude Readout")
 
 ![]({{ site.baseurl }}/assets/pages/instruments/aoa.png "Analog AOA (Angle of Attack) Gauge")
 
-![]({{ site.baseurl }}/assets/pages/instruments/landing_gear.png "Landing Gear and Indicator")
+![]({{ site.baseurl }}/assets/pages/instruments/landing-gear.png "Landing Gear and Indicator")
 
-![]({{ site.baseurl }}/assets/pages/instruments/four_engine.png "4 Engine Heavy Jet's Temperatures")
+![]({{ site.baseurl }}/assets/pages/instruments/four-engine.png "4 Engine Heavy Jet's Temperatures")
 
 ![]({{ site.baseurl }}/assets/pages/instruments/adi.png "ADI - Altitude Direction Indicator")
 
-![]({{ site.baseurl }}/assets/pages/instruments/speed_brake.png "Speedbrake")
+![]({{ site.baseurl }}/assets/pages/instruments/speed-brake.png "Speedbrake")
 

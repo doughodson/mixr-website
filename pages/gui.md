@@ -19,10 +19,10 @@ This page provides several screenshots that are contained in the mixr-examples p
 
 The example below above integrates MIXR graphic capabilities within a Fox main window (FX:FXMainWindow). The application sets up a real-time thread for the execution and movement of several "worms" on the canvas. The menu provides functions to rotate and translate our logo around the canvas.
 
-![]({{ site.baseurl }}/assets/pages/gui/fox_example.png "FOX Interface")
+![]({{ site.baseurl }}/assets/pages/gui/fox-example.png "FOX Interface")
 
 ## FLTK-based Interface
 
 The example below above integrates MIXR graphic capabilities within an FLTK version 1.3 main window. The application opens 2 glut windows and draws our logo as defined in input files. The translate buttons enable movement of the logo on the canvas. This example works in both Windows and Linux. 
 
-![]({{ site.baseurl }}/assets/pages/gui/fltk_example.png "FLTK Interface")
+![]({{ site.baseurl }}/assets/pages/gui/fltk-example.png "FLTK Interface")
