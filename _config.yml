@@ -39,6 +39,7 @@ header_pages:
   - pages/instruments.md
   - pages/interoperability.md
   - pages/gui.md
+  - pages/projects.md
 
 titles_from_headings:
   enabled: true
