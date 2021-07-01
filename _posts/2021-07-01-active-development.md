@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Active Development"
+title:  "Active Code Development"
 ---
-New active development on this project starting up. Time availability has been in short supply the past year, but now, for a variety of reasons, our focus has turned back to this project.
+Active development going on. Received a bunch of bug fixes for code that has been integrated. Also downloads page has been updated to reflect development versions of code as of now.
 
