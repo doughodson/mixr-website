@@ -3,13 +3,13 @@ layout: page
 title: Downloads
 permalink: /downloads.html
 ---
-## Version 20.0x (Developmental)
+## Version 21.0x (Developmental)
 
-[Example Data](https://s3.amazonaws.com/mixr-platform/releases/dev_v20.0x/mixr-data_v20.0x.zip)
+[Example Data](https://s3.amazonaws.com/mixr-platform/releases/dev_v21.0x/mixr-data_v20.0x.zip)
 
-[32-Bit 3rd Party Libraries](https://s3.amazonaws.com/mixr-platform/releases/dev_v20.0x/mixr-3rdparty_v20.0x.zip) : Windows prebuilt dependency libraries compiled for Visual Studio 2017 and Visual Studio 2019.
+[32-Bit 3rd Party Libraries](https://s3.amazonaws.com/mixr-platform/releases/dev_v21.0x/mixr-3rdparty_v20.0x.zip) : Windows prebuilt dependency libraries compiled for Visual Studio 2017 and Visual Studio 2019.
 
-[3rd Party Libraries Source Code](https://s3.amazonaws.com/mixr-platform/releases/dev_v20.0x/mixr-3rdpartysrc_v20.0x.tgz) : Make sure to use the version of JSBSim included in this archive when installing on a Linux-based computer.  Many other dependencies can be installed via "apt-get" or "yum" if internet access is available.
+[3rd Party Libraries Source Code](https://s3.amazonaws.com/mixr-platform/releases/dev_v21.0x/mixr-3rdpartysrc_v20.0x.tgz) : Make sure to use the version of JSBSim included in this archive when installing on a Linux-based computer.  Many other dependencies can be installed via "apt-get" or "yum" if internet access is available.
 
 ## Version 18.01  (Current Release)
 
