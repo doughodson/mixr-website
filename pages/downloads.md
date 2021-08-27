@@ -5,7 +5,7 @@ permalink: /downloads.html
 ---
 ## Version 21.0x (Developmental)
 
-[Example Data](https://s3.amazonaws.com/mixr-platform/releases/dev_v21.0x/mixr-data_v21.0x.zip)
+[Example Data](https://s3.amazonaws.com/mixr-platform/releases/dev_v21.0x/mixr-data_v21.0x.tgz)
 
 [32-Bit 3rd Party Libraries](https://s3.amazonaws.com/mixr-platform/releases/dev_v21.0x/mixr-3rdparty_v21.0x.zip) : Windows prebuilt dependency libraries compiled for Visual Studio 2017 and Visual Studio 2019.
 
