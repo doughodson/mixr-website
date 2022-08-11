@@ -7,7 +7,7 @@ permalink: /downloads.html
 
 [Example Data](https://s3.amazonaws.com/mixr-platform/releases/dev/mixr-data_v22.09.tgz)
 
-[64 Bit 3rd Party Libraries](https://s3.amazonaws.com/mixr-platform/releases/dev/mixr-3rdparty_v21.0x.zip) : Windows prebuilt dependency libraries compiled with Visual Studio 2019 using platform toolset v142. Libraries should be compatible with all major Visual Studio releases including 2015, 2017, 2019 and 2022.
+[64 Bit 3rd Party Libraries](https://s3.amazonaws.com/mixr-platform/releases/dev/mixr-3rdparty_v22.09.zip) : Windows prebuilt dependency libraries compiled with Visual Studio 2019 using platform toolset v142. Libraries should be compatible with all major Visual Studio releases including 2015, 2017, 2019 and 2022.
 
 [3rd Party Libraries Source Code](https://s3.amazonaws.com/mixr-platform/releases/dev/mixr-3rdpartysrc_v22.09.tgz) : Make sure to use the version of JSBSim included in this archive when installing on a Linux-based computer.  Many other dependencies can be installed via "apt-get" or "yum" if internet access is available.
 
