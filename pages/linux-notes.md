@@ -32,10 +32,12 @@ Note: Older Fedora distributions (pre-Fedora release 22) use 'yum' instead of 'd
 #### Ubuntu
 
 ```sh
-apt-get install libftgl-dev
-apt-get install libfreetype6-dev
-apt-get install freeglut3-dev
-apt-get install fontconfig
+apt install libftgl-dev
+apt install libfreetype6-dev
+apt install freeglut3-dev
+apt install libexpat-dev
+apt install libfontconfig-dev
+apt install build-essential
 ```
 
 Some Linux distributions don't provide FTGL packages in a convenient manner.  For example, CentOS 7 doesn't include FTGL on any of their ISOs.  Because of this, the build script provided with 3rd party source code will compile FTGL.
