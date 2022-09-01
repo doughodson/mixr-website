@@ -29,11 +29,11 @@ apt install libtool
 apt install libtool-bin
 ```
 
-Installing packages for FTGL, freetype and freeglut are essential components to build the MIXR **graphics** library and compile GLUT-based applications.
+Installing the packages 'libftgl-dev', 'libfreetype6-dev', 'freeglut3-dev' and 'libfontconfig-dev' are required by mixr's **graphics** library.
 
-The 'libexpat-dev' package is required to compile OpenRTI (an HLA interface).
+Installing the package 'libexpat-dev' is required by OpenRTI (an HLA interface).
 
-Installing the 'build-essential' package installs c++ tools to compile and link that language. 'cmake', 'autogen', 'automake', 'libtool' and 'libtool-bin' install support building tools needed to compile all of mixr's dependencies.
+Installing the packages 'build-essential' supplies c++ tools to compile and link that language; packages 'cmake', 'autogen', 'automake', 'libtool' and 'libtool-bin' provide tools to build mixr's dependencies.
 
 Note: Some Linux distributions don't provide FTGL packages in a convenient manner.  For example, CentOS 7 doesn't include FTGL on any of their ISOs.  Because of this, the build script provided with 3rd party source code will compile FTGL.
 
