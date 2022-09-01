@@ -3,8 +3,6 @@ layout: page
 title: "Linux Notes"
 permalink: /linux-notes.html
 ---
-## Ubuntu Notes
-
 Two of the most popular Linux distributions are either Fedora or Ubuntu-based. Both are often used to develop and execute MIXR-based simulations. This page provides installation and configuration notes to install required prerequisites, compile MIXR libraries and execute examples for the Ubuntu distribution. A working knowledge of Linux is assumed.
 
 ### Installing Prerequisites
