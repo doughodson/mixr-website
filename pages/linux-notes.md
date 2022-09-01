@@ -12,26 +12,13 @@ Prebuilt packages (e.g., deb) are often available to facilitate prerequisite ins
 Note: Ensure you have administrator privileges when installing packages as most of them install header files and libraries into system areas.
 
 ```sh
-apt install libftgl-dev
-apt install libfreetype6-dev
-apt install freeglut3-dev
-apt install libfontconfig-dev
+# packages required by mixr's graphics library
+apt install libftgl-dev libfreetype6-dev freeglut3-dev libfontconfig-dev
+# package required by OpenRTI (HLA interface) to work with XML files
 apt install libexpat-dev
-apt install build-essential
-apt install cmake
-apt install autogen
-apt install automake
-apt install libtool
-apt install libtool-bin
+# packages required to build C++ code
+apt install build-essential cmake autogen automake libtool libtool-bin
 ```
-
-The packages 'libftgl-dev', 'libfreetype6-dev', 'freeglut3-dev' and 'libfontconfig-dev' are required by mixr's **graphics** library.
-
-The package 'libexpat-dev' is required by OpenRTI (an HLA interface).
-
-The packages 'build-essential' supplies c++ tools to compile and link that language; packages 'cmake', 'autogen', 'automake', 'libtool' and 'libtool-bin' provide tools to build mixr's dependencies.
-
-Note: Some Linux distributions don't provide FTGL packages in a convenient manner.  For example, CentOS 7 doesn't include FTGL on any of their ISOs.  Because of this, the build script provided with 3rd party source code will compile FTGL.
 
 ### Building MIXR Libraries
 
