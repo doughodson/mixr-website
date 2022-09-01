@@ -3,7 +3,7 @@ layout: page
 title: "Linux Notes"
 permalink: /linux-notes.html
 ---
-Two of the most popular Linux distributions are either Fedora or Ubuntu-based. Both are often used to develop and execute MIXR-based simulations. This page provides installation and configuration notes to install required prerequisites, compile MIXR libraries and execute examples for the Ubuntu distribution. A working knowledge of Linux is assumed.
+Two of the most popular Linux distributions are either Fedora or Ubuntu-based. Both are often used to develop and execute MIXR-based simulations. This page provides installation and configuration notes to install required prerequisites for Ubuntu-based systems, build the MIXR specific dependencies, build MIXR libraries, and finally execute MIXR examples. A working knowledge of Linux is assumed.
 
 ### Installing Prerequisites
 
@@ -19,6 +19,26 @@ sudo apt install libexpat-dev
 # packages required to compile, link and manage C++ code
 sudo apt install build-essential cmake autogen automake libtool libtool-bin
 ```
+### Building MIXR Dependencies
+
+All dependiences that are somewhat unique (i.e., specific) to the real-time, distributed, virtual simulations are included in the 3rd party source code package. This file (mixr-3rdpartysrc.tgz) needs to be unzipped and placed into the same directory you plan to build MIXR libraries.  For example:
+
+```sh
+cd mixr-platform
+# unzip and extract all the files into mixr-3rdpartysrc
+tar xzvf mixr-3rdpartysrc.tgz
+# change to mixr directory
+cd mixr
+source setenv.sh
+# change to 3rd party directory source code
+cd ../mixr-3rdpartysrc
+# 'registers' a few functions to build dependencies
+source build.sh
+# compile and install all unique dependencies
+# this will create the directory 'mixr-3rdparty'
+install_all
+```
+
 
 ### Building MIXR Libraries
 
