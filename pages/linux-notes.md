@@ -5,19 +5,13 @@ permalink: /linux-notes.html
 ---
 ## Ubuntu Notes
 
-Two of the most popular Linux distributions are either Fedora or Ubuntu-based. Both are often used to develop and execute MIXR-based simulations. This page provides installation and configuration notes to install required prerequisites, compile MIXR libraries and execute examples for the Ubuntu distribution.
-
-A working knowledge of Linux is assumed.
+Two of the most popular Linux distributions are either Fedora or Ubuntu-based. Both are often used to develop and execute MIXR-based simulations. This page provides installation and configuration notes to install required prerequisites, compile MIXR libraries and execute examples for the Ubuntu distribution. A working knowledge of Linux is assumed.
 
 ### Installing Prerequisites
 
-Prebuilt packages (such as deb) are often available to facilitate prerequisite installation.  It is often preferable to install prerequisites using the prebuilt packages as they can be easily removed if necessary or automatically updated if connected to the Internet. Gzipped tar files (.tar.gz or .tgz) are typically available as well.
+Prebuilt packages (e.g., deb) are often available to facilitate prerequisite installation.  It is often preferable to install prerequisites using the prebuilt packages as they can be easily removed if necessary or automatically updated if connected to the Internet. Gzipped tar files (.tar.gz or .tgz) are typically available as well.
 
 Note: Ensure you have administrator privileges when installing packages as most of them install header files and libraries into system areas.
-
-#### FTGL, FreeType, FreeGlut
-
-FTGL, freetype and freeglut are essential components to build the MIXR **graphics** library and compile GLUT-based applications. The following commands will download and install the header files and developmental libraries for each package.
 
 #### Ubuntu
 
@@ -25,16 +19,23 @@ FTGL, freetype and freeglut are essential components to build the MIXR **graphic
 apt install libftgl-dev
 apt install libfreetype6-dev
 apt install freeglut3-dev
-apt install libexpat-dev
 apt install libfontconfig-dev
+apt install libexpat-dev
 apt install build-essential
-apt-get install autogen
-apt-get install automake
-apt-get install libtool
-apt-get install libtool-bin
+apt install cmake
+apt install autogen
+apt install automake
+apt install libtool
+apt install libtool-bin
 ```
 
-Some Linux distributions don't provide FTGL packages in a convenient manner.  For example, CentOS 7 doesn't include FTGL on any of their ISOs.  Because of this, the build script provided with 3rd party source code will compile FTGL.
+Installing packages for FTGL, freetype and freeglut are essential components to build the MIXR **graphics** library and compile GLUT-based applications.
+
+The 'libexpat-dev' package is required to compile OpenRTI (an HLA interface).
+
+Installing the 'build-essential' package installs c++ tools to compile and link that language. 'cmake', 'autogen', 'automake', 'libtool' and 'libtool-bin' install support building tools needed to compile all of mixr's dependencies.
+
+Note: Some Linux distributions don't provide FTGL packages in a convenient manner.  For example, CentOS 7 doesn't include FTGL on any of their ISOs.  Because of this, the build script provided with 3rd party source code will compile FTGL.
 
 #### Common Image Generator Interface (CIGI)
 
@@ -99,7 +100,7 @@ make install        // install header files and libraries to /usr/local/include/
 
 #### Within a User Account
 
-We supply a build script with the 3rd party source code to automate building source code within a user account.  
+We supply a build script with the 3rd party source code to automate building source code within a user account.
 
 #### Building Examples
 
