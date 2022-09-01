@@ -33,7 +33,7 @@ source setenv.sh
 # change to 3rd party directory source code
 cd ../mixr-3rdpartysrc
 # 'registers' a few functions to build dependencies
-source build.sh
+source build_libs.sh
 # compile and install all unique dependencies
 # this will create the directory 'mixr-3rdparty'
 install_all
