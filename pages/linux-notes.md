@@ -39,7 +39,7 @@ source build_libs.sh
 install_all
 ```
 
-### Building MIXR (i.e., Libraries)
+### Building MIXR Libraries
 
 MIXR can be compiled and installed in two ways, as a system component just like any other prerequisite, or within a user account.
 
