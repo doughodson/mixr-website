@@ -29,57 +29,15 @@ apt install libtool
 apt install libtool-bin
 ```
 
-Installing the packages 'libftgl-dev', 'libfreetype6-dev', 'freeglut3-dev' and 'libfontconfig-dev' are required by mixr's **graphics** library.
+The packages 'libftgl-dev', 'libfreetype6-dev', 'freeglut3-dev' and 'libfontconfig-dev' are required by mixr's **graphics** library.
 
-Installing the package 'libexpat-dev' is required by OpenRTI (an HLA interface).
+The package 'libexpat-dev' is required by OpenRTI (an HLA interface).
 
-Installing the packages 'build-essential' supplies c++ tools to compile and link that language; packages 'cmake', 'autogen', 'automake', 'libtool' and 'libtool-bin' provide tools to build mixr's dependencies.
+The packages 'build-essential' supplies c++ tools to compile and link that language; packages 'cmake', 'autogen', 'automake', 'libtool' and 'libtool-bin' provide tools to build mixr's dependencies.
 
 Note: Some Linux distributions don't provide FTGL packages in a convenient manner.  For example, CentOS 7 doesn't include FTGL on any of their ISOs.  Because of this, the build script provided with 3rd party source code will compile FTGL.
 
-#### Common Image Generator Interface (CIGI)
-
-[CIGI](http://cigi.sourceforge.net) is an open-source visual system interface library that is an essential component to build MIXR's **ighost_cigi** library. Download and install the latest CIGI Class Library (CCL).  As of this writing, it is distributed in a gzipped tar file.
-
-Download ccl_3.3.3a.tar.gz and perform the following steps:
-
-````sh
-tar xzvf ccl_3.3.3a.tar.gz    // unzips and extracts the directory "ccl"
-cd ccl                        // change to "ccl" directory
-configure                     // configure package
-make                          // compile libraries
-make install                  // install libraries
-````
-
-#### JSBSim Flight Dynamics Model
-
-[JSBSim](http://jsbsim.sourceforge.net), is an open source flight dynamics model (FDM) that is an essential component to build the MIXR **model** library.
-
-Note: Use the version of JSBSim included with MIXR, as it is often the most current available and supported by the MIXR vehicle interface. It can be found in the mixr-3rdpartysrc download.
-
-````sh
-tar xzvf jsbsim_cvs_v2015_0704.tgz   // unzips and extracts the directory "jsbsim"
-cd jsbsim/JSBSim                     // change to "JSBSim" directory
-./autogen.sh --enable-libraries      // configure package to make linkable libraries
-make                                 // compile libraries
-make install                         // install libraries
-````
-
-#### Data Recording/Storage Library
-
-[Google Protocol Buffers](http://code.google.com/p/protobuf/) : Google protocol buffers is a way of encoding structured data in an efficient yet extensible format. It is an essential component required to build the MIXR **recorder** library.
-
-````sh
-unzip protobuf-2.4.1.zip         // unzips and extracts the directory "protobuf-2.4.1"
-cd protobuf-2.4.1                // change to "protobuf-2.4.1" directory
-configure                        // configure package to setup build environment
-make                             // compile protoc application and protobuf libraries
-make install                     // install application and libraries
-````
-
-### MIXR
-
-#### Building Libraries
+#### Building MIXR Libraries
 
 MIXR can be compiled and installed in two ways, as a system component just like any other prerequisite, or within a user account.
 
