@@ -28,6 +28,10 @@ apt install freeglut3-dev
 apt install libexpat-dev
 apt install libfontconfig-dev
 apt install build-essential
+apt-get install autogen
+apt-get install automake
+apt-get install libtool
+apt-get install libtool-bin
 ```
 
 Some Linux distributions don't provide FTGL packages in a convenient manner.  For example, CentOS 7 doesn't include FTGL on any of their ISOs.  Because of this, the build script provided with 3rd party source code will compile FTGL.
@@ -58,17 +62,6 @@ cd jsbsim/JSBSim                     // change to "JSBSim" directory
 ./autogen.sh --enable-libraries      // configure package to make linkable libraries
 make                                 // compile libraries
 make install                         // install libraries
-````
-
-Also note, that for autogen to work, both 'autogen' and 'libtool' need to be installed on your system.
-
-#### Ubuntu
-
-````sh
-apt-get install autogen
-apt-get install automake
-apt-get install libtool
-apt-get install libtool-bin
 ````
 
 #### Data Recording/Storage Library
