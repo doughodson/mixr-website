@@ -13,8 +13,6 @@ Prebuilt packages (e.g., deb) are often available to facilitate prerequisite ins
 
 Note: Ensure you have administrator privileges when installing packages as most of them install header files and libraries into system areas.
 
-#### Ubuntu
-
 ```sh
 apt install libftgl-dev
 apt install libfreetype6-dev
