@@ -3,31 +3,21 @@ layout: page
 title: "Linux Notes"
 permalink: /linux-notes.html
 ---
-## Fedora and Ubuntu Notes
+## Ubuntu Notes
 
-Two of the most popular Linux distributions are either Fedora or Ubuntu-based. Both are often used to develop and execute MIXR-based simulations. This page provides installation and configuration notes to install required prerequisites, compile MIXR libraries and execute examples.
+Two of the most popular Linux distributions are either Fedora or Ubuntu-based. Both are often used to develop and execute MIXR-based simulations. This page provides installation and configuration notes to install required prerequisites, compile MIXR libraries and execute examples for the Ubuntu distribution.
 
-A working knowledge of Linux (Fedora and/or Ubuntu) is assumed.
+A working knowledge of Linux is assumed.
 
 ### Installing Prerequisites
 
-Prebuilt packages (such as rpm and deb) are often available to facilitate prerequisite installation.  It is often preferable to install prerequisites using the prebuilt packages as they can be easily removed if necessary or automatically updated if connected to the Internet. Gzipped tar files (.tar.gz or .tgz) are typically available as well.
+Prebuilt packages (such as deb) are often available to facilitate prerequisite installation.  It is often preferable to install prerequisites using the prebuilt packages as they can be easily removed if necessary or automatically updated if connected to the Internet. Gzipped tar files (.tar.gz or .tgz) are typically available as well.
 
 Note: Ensure you have administrator privileges when installing packages as most of them install header files and libraries into system areas.
 
 #### FTGL, FreeType, FreeGlut
 
 FTGL, freetype and freeglut are essential components to build the MIXR **graphics** library and compile GLUT-based applications. The following commands will download and install the header files and developmental libraries for each package.
-
-#### Fedora
-
-```sh
-dnf install ftgl-devel
-dnf install freetype-devel
-dnf install freeglut-devel
-```
-
-Note: Older Fedora distributions (pre-Fedora release 22) use 'yum' instead of 'dnf' to install packages, for example, CentOS 7.
 
 #### Ubuntu
 
@@ -71,14 +61,6 @@ make install                         // install libraries
 ````
 
 Also note, that for autogen to work, both 'autogen' and 'libtool' need to be installed on your system.
-
-#### Fedora
-
-````sh
-dnf install autogen
-dnf install automake
-dnf install libtool
-````
 
 #### Ubuntu
 
