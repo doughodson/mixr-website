@@ -37,11 +37,11 @@ The packages 'build-essential' supplies c++ tools to compile and link that langu
 
 Note: Some Linux distributions don't provide FTGL packages in a convenient manner.  For example, CentOS 7 doesn't include FTGL on any of their ISOs.  Because of this, the build script provided with 3rd party source code will compile FTGL.
 
-#### Building MIXR Libraries
+## Building MIXR Libraries
 
 MIXR can be compiled and installed in two ways, as a system component just like any other prerequisite, or within a user account.
 
-#### As a System Component
+### As a System Component
 
 For this installation, MIXR is installed just like many other packages. Perform the following steps:
 
@@ -56,10 +56,10 @@ make install        // install header files and libraries to /usr/local/include/
                     // and /usr/local/lib/mixr respectively
 ````
 
-#### Within a User Account
+### Within a User Account
 
 We supply a build script with the 3rd party source code to automate building source code within a user account.
 
-#### Building Examples
+### Building Examples
 
 When the examples are compiled, the environment MIXR_ROOT is used to locate header files and link libraries.  Simply unzip and extract the examples to the directory desired, change to the "src" directory and run "make".
