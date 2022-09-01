@@ -13,11 +13,11 @@ Note: Ensure you have administrator privileges when installing packages as most 
 
 ```sh
 # packages required by mixr's graphics library
-apt install libftgl-dev libfreetype6-dev freeglut3-dev libfontconfig-dev
+sudo apt install libftgl-dev libfreetype6-dev freeglut3-dev libfontconfig-dev
 # package required by OpenRTI (HLA interface) to work with XML files
-apt install libexpat-dev
-# packages required to build C++ code
-apt install build-essential cmake autogen automake libtool libtool-bin
+sudo apt install libexpat-dev
+# packages required to compile, link and manage C++ code
+sudo apt install build-essential cmake autogen automake libtool libtool-bin
 ```
 
 ### Building MIXR Libraries
