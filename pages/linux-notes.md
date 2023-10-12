@@ -17,7 +17,7 @@ sudo apt install libftgl-dev libfreetype6-dev freeglut3-dev libfontconfig-dev
 # package required by OpenRTI (HLA interface) to work with XML files
 sudo apt install libexpat-dev
 # packages required to compile, link and manage C++ code
-sudo apt install build-essential cmake autogen automake libtool libtool-bin
+sudo apt install build-essential cmake
 ```
 ### Building MIXR Dependencies
 
