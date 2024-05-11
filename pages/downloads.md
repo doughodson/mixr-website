@@ -3,11 +3,11 @@ layout: page
 title: Downloads
 permalink: /downloads.html
 ---
-## Version 23.10 (Developmental)
+## Version 25.05 (Developmental)
 
 [Example Data](https://s3.amazonaws.com/mixr-platform/releases/dev/mixr-data_v23.10.tgz)
 
-[3rd Party Libraries Source Code](https://s3.amazonaws.com/mixr-platform/releases/dev/mixr-3rdpartysrc_v23.10.tgz) : Make sure to use the version of JSBSim included in this archive when installing on a Linux-based computer.  Many other dependencies can be installed via "apt-get" or "yum" if internet access is available.
+[3rd Party Libraries Source Code](https://s3.amazonaws.com/mixr-platform/releases/dev/mixr-3rdpartysrc_v24.05.tgz) : Make sure to use the version of JSBSim included in this archive when installing on a Linux-based computer.  Many other dependencies can be installed via "apt-get" or "yum" if internet access is available.
 
 ## Version 18.01  (Current Release)
 
