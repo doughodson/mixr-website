@@ -3,7 +3,7 @@ layout: page
 title: Downloads
 permalink: /downloads.html
 ---
-## Version 25.05 (Developmental)
+## Version 24.05 (Developmental)
 
 [Example Data](https://s3.amazonaws.com/mixr-platform/releases/dev/mixr-data_v23.10.tgz)
 
