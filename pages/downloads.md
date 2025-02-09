@@ -13,7 +13,7 @@ This is a Linux only release -- we are improving codebase and will have a Window
 
 [Example Data](https://s3.amazonaws.com/mixr-platform/releases/stable_v25.02rc2/mixr-data_v25.02.tgz)
 
-[3rd Party Libraries Source Code](https://s3.amazonaws.com/mixr-platform/releases/stable_v25.02rc2/mixr-3rdpartysrc_v25.02.tar.gz) : Make sure to use the version of JSBSim included in this archive when installing on a Linux-based computer.  Many other dependencies can be installed via "apt-get" or "yum" if internet access is available.
+[3rd Party Libraries Source Code](https://s3.amazonaws.com/mixr-platform/releases/stable_v25.02rc2/mixr-3rdpartysrc_v25.02.tgz) : Make sure to use the version of JSBSim included in this archive when installing on a Linux-based computer.  Many other dependencies can be installed via "apt-get" or "yum" if internet access is available.
 
 ## Version 18.01  (Current Release)
 
