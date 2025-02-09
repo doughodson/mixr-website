@@ -3,17 +3,17 @@ layout: page
 title: Downloads
 permalink: /downloads.html
 ---
-## Version 24.10 (Release Candidate 1)
+## Version 25.02 (Release Candidate 2)
 
 This is a Linux only release -- we are improving codebase and will have a Windows version soon.
 
-[Framework](https://s3.amazonaws.com/mixr-platform/releases/stable_v24.10rc1/mixr_v24.10.tgz)
+[Framework](https://s3.amazonaws.com/mixr-platform/releases/stable_v25.02rc2/mixr_v25.02.tgz)
 
-[Examples](https://s3.amazonaws.com/mixr-platform/releases/stable_v24.10rc1/mixr-examples_v24.10.tgz)
+[Examples](https://s3.amazonaws.com/mixr-platform/releases/stable_v25.02rc2/mixr-examples_v25.02.tgz)
 
-[Example Data](https://s3.amazonaws.com/mixr-platform/releases/stable_v24.10rc1/mixr-data_v24.10.tgz)
+[Example Data](https://s3.amazonaws.com/mixr-platform/releases/stable_v25.02rc2/mixr-data_v25.02.tgz)
 
-[3rd Party Libraries Source Code](https://s3.amazonaws.com/mixr-platform/releases/stable_v24.10rc1/mixr-3rdpartysrc_v24.10.tar.gz) : Make sure to use the version of JSBSim included in this archive when installing on a Linux-based computer.  Many other dependencies can be installed via "apt-get" or "yum" if internet access is available.
+[3rd Party Libraries Source Code](https://s3.amazonaws.com/mixr-platform/releases/stable_v25.02rc1/mixr-3rdpartysrc_v25.02.tar.gz) : Make sure to use the version of JSBSim included in this archive when installing on a Linux-based computer.  Many other dependencies can be installed via "apt-get" or "yum" if internet access is available.
 
 ## Version 18.01  (Current Release)
 
