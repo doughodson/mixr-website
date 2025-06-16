@@ -7,8 +7,8 @@ MIXR is a simulation framework designed to help engineers and software developer
 
 MIXR is a mature software simulation framework that has been in active development for over a decade. It includes interoperability interfaces to support the development of distributed applications, as it includes interfaces that support the Distributed Interactive Simulation (DIS) protocol. Numerous DIS compliant distributed simulation applications have been built using this framework as the foundation.
 
-The platform is described in the book titled “Design & Construction of Virtual and Constructive Simulations Using OpenEaagles” (OpenEaagles was its previous name). This is one of the first modeling and simulation books published that focuses on the construction techniques of virtual and constructive performance-oriented high fidelity simulations. It can be found [here](https://s3.amazonaws.com/mixr-platform/book/v1.07/book.pdf)
-along with long outdated examples [here](https://s3.amazonaws.com/mixr-platform/book/v1.07/examples.zip).
+The platform is described in the book titled “Design & Construction of Virtual and Constructive Simulations Using OpenEaagles” (OpenEaagles was its previous name). This is one of the first modeling and simulation books published that focuses on the construction techniques of virtual and constructive performance-oriented high fidelity simulations. This old book can be found [here](https://s3.amazonaws.com/mixr-platform/book/v1.07/book.pdf)
+along with outdated examples [here](https://s3.amazonaws.com/mixr-platform/book/v1.07/examples.zip).
 
 
 
