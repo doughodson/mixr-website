@@ -3,7 +3,7 @@ layout: page
 title: Overview
 permalink: /overview.html
 ---
-MIXR is an open source platform designed to support the rapid construction of virtual (human-in-the-loop) and constructive simulation applications. It has been used extensively to build DIS compliant distributed simulation systems.
+MIXR is an open source framework designed to support the rapid construction of virtual (human-in-the-loop) and constructive simulation applications. It has been used extensively to build DIS compliant distributed simulation systems.
 
 Serving as a simulation design pattern it provides a structure for constructing simulation applications. The framework aids the design of robust, scalable, virtual, constructive, stand-alone, and distributed simulation applications. It leverages modern object-oriented software design principles while incorporating fundamental real-time system design techniques to meet human interaction requirements.
 
