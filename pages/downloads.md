@@ -3,7 +3,7 @@ layout: page
 title: Downloads
 permalink: /downloads.html
 ---
-## Version 26.02 (Developmental)
+## Version 26.01 (Developmental)
 
 This is a Linux only release -- we are improving codebase and will have a Windows version soon.
 
