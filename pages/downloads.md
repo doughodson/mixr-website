@@ -25,7 +25,7 @@ This is a Linux only release -- we are improving codebase and will have a Window
 
 [32-Bit 3rd Party Libraries](https://s3.amazonaws.com/mixr-platform/releases/stable_v18.01/mixr-3rdparty_v18.01.zip) : Windows prebuilt dependency libraries compiled for Visual Studio 2015 and Visual Studio 2017.
 
-[3rd Party Libraries Source Code](https://s3.amazonaws.com/mixr-platform/releases/stable_v18.01/mixr-3rdpartysrc_v18.12.tgz) : Make sure to use the version of JSBSim included in this archive when installing on a Linux-based computer.  Many other dependencies can be installed via "apt-get" or "yum" if internet access is available.
+[3rd Party Libraries Source Code](https://s3.amazonaws.com/mixr-platform/releases/stable_v18.01/mixr-3rdpartysrc_v18.01.tgz) : Make sure to use the version of JSBSim included in this archive when installing on a Linux-based computer.  Many other dependencies can be installed via "apt-get" or "yum" if internet access is available.
 
 ## Dependencies
 
