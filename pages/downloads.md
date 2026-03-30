@@ -7,9 +7,9 @@ permalink: /downloads.html
 
 This is a Linux only release -- we are improving codebase and will have a Windows version soon.
 
-[Framework](https://s3.amazonaws.com/mixr-platform/releases/stable_v26.01/mixr_v26.01.tgz)
+[Framework](https://s3.amazonaws.com/mixr-platform/releases/stable_v26.04/mixr_v26.04.tgz)
 
-[Examples](https://s3.amazonaws.com/mixr-platform/releases/stable_v26.01/mixr-examples_v26.01.tgz)
+[Examples](https://s3.amazonaws.com/mixr-platform/releases/stable_v26.04/mixr-examples_v26.04.tgz)
 
 [Example Data](https://s3.amazonaws.com/mixr-platform/releases/stable_v26.04/mixr-data_v26.04.tgz)
 
