@@ -27,16 +27,6 @@ This is a Linux only release -- we are improving codebase and will have a Window
 
 [3rd Party Libraries Source Code](https://s3.amazonaws.com/mixr-platform/releases/stable_v18.01/mixr-3rdpartysrc_v18.12.tgz) : Make sure to use the version of JSBSim included in this archive when installing on a Linux-based computer.  Many other dependencies can be installed via "apt-get" or "yum" if internet access is available.
 
-## Version 17.06c (Previous Release)
-
-[Framework](https://s3.amazonaws.com/mixr-platform/releases/stable_v17.06c/mixr_v17.06c.zip)
-
-[Examples](https://s3.amazonaws.com/mixr-platform/releases/stable_v17.06c/mixr-examples_v17.06c.zip)
-
-[32-Bit 3rd Party Libraries](https://s3.amazonaws.com/mixr-platform/releases/stable_v17.06c/mixr-3rdparty_v17.06c.zip) : Windows prebuilt dependency libraries compiled for Visual Studio 2013, Visual Studio 2015 and Visual Studio 2017.
-
-[3rd Party Libraries Source Code](https://s3.amazonaws.com/mixr-platform/releases/stable_v17.06c/mixr-3rdpartysrc_v17.06c.zip) : Make sure to use the version of JSBSim included in this archive when installing on a Linux-based computer.  Many other dependencies can be installed via "apt-get" or "yum" if internet access is available.
-
 ## Dependencies
 
 When building simulation applications for Windows, please download the pre-packaged mixr-3rdparty binaries zip file that contains compiled versions of all dependency libraries (see above).  For Linux development, depending upon the flavor of your distribution, "apt", "yum" or "dnf" utilities can install many of the required libraries.  As an alternative, please download the 3rdparty source package and use the supplied build script to compile and install most of them.
